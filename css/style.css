@@ -373,7 +373,7 @@ a[href^="https"] {
 .content-item:nth-child(8n) {
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-litem:last-child {
+.content-item:last-child {
   flex-basis: calc((100% - 60px) / 3);
 }
 .image {
