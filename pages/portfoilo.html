@@ -23,33 +23,37 @@
   <body>
     <header class="header">
       <div class="container">
-        <a class="header-link" href="../index.html"
+        <a class="header-link" href="./index.html"
           >Web<span class="header-span">Studio</span></a
         >
         <nav class="header-navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link" href="../index.html">Студія</a>
+              <a class="navigation-link" href="">Студія</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="../pages/portfoilo.html"
+              <a class="navigation-link" href="./pages/portfoilo.html"
                 >Портфоліо</a
               >
             </li>
             <li class="navigation-item">
-              <a class="navigation-link contact" href="../index.html">Контакти</a>
+              <a class="navigation-link contact" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="header-list">
           <li class="header-item">
             <a class="header-information" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="header-icon">
+                <use href="../images/symbol-defs.svg#icon-post"></use>
+              </svg>info@devstudio.com</a
             >
           </li>
           <li class="header-item">
             <a class="header-information" href="tel:+380961111111h"
-              >+38 096 111 11 11</a
+              ><svg class="header-icont">
+                <use href="../images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -171,6 +175,7 @@
     </main>
     <footer class="footer">
       <div class="container">
+        <section class="footer-section">
         <a class="footer-link" href="./index.html"
           >Web<span class="footer-span">Studio</span></a
         >
@@ -193,6 +198,24 @@
             </li>
           </ul>
         </address>
+        </section>
+        <section class="soc">
+          <h2 class="soc-title">приєднуйтесь</h2>
+          <ul class="soc-list">
+            <li class="soc-item"><li class="soc-item"><button class="soc-button"><svg class="soc-icon">
+              <use href="../images/symbol-defs.svg#icon-insta"></use>
+            </svg></button></li>
+            <li class="soc-item"><button class="soc-button"><svg class="soc-icon">
+              <use href="../images/symbol-defs.svg#icon-twitter"></use>
+            </svg></button></li>
+            <li class="soc-item"><button class="soc-button"><svg class="soc-icon">
+              <use href="../images/symbol-defs.svg#icon-facebook"></use>
+            </svg></button></li>
+            <li class="soc-item"><button class="soc-button"><svg class="soc-icon">
+              <use href="../images/symbol-defs.svg#icon-in"></use>
+            </svg></button></li>
+          </ul>
+        </section>
       </div>
     </footer>
   </body>

@@ -12,3 +12,9 @@ h1,h2,h3,p {
 img {
     display: block;
 }
+div {
+    list-style: none;
+}
+button {
+    padding: 0;
+}
