@@ -43,8 +43,7 @@
         </nav>
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-information" href="mailto:info@devstudio.com"
-              ><svg class="header-icon">
+            <a class="header-information" href="mailto:info@devstudio.com" data-modal-open><svg class="header-icon">
                 <use href="./images/symbol-defs.svg#icon-post"></use>
               </svg>info@devstudio.com</a
             >
@@ -292,7 +291,54 @@
             </svg></button></li>
           </ul>
         </section>
+        <section class="suscribe">
+            <h2 class="suscribe-title">Підпишіться на розсилку</h2>
+            <form class="suscribe-form">
+                <label class="suscribe-label">E-mail
+                <input type="email" class="suscribe-input">
+                </label>
+                <button class="suscribe-button">Підписатися</button>
+                <svg class="suscribe-svg">
+                    <use href="./images/symbol-defs.svg#icon-tg" class="suscribe-use"></use>
+                </svg>
+            </form>
+        </section>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button" data-modal-close><svg class="modal-svg">
+          <use class="modal-use" href="./images/symbol-defs.svg#icon-close"></use>
+        </svg></button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="modal-form">
+          <ul class="modal-list">
+            <li class="modal-item"><label class="model-label">Ім'я
+            <input type="text" class="modal-input">
+          </label></li>
+            <li class="modal-item"><label class="model-label">Телефон
+            <!-- <svg class="input-svg">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg> -->
+            <input type="text" class="modal-input">
+          </label></li>
+            <li class="modal-item"><label class="model-label">Пошта
+            <input type="text" class="modal-input">
+          </label></li>
+            <li class="modal-item"><label class="model-label">Коментар
+            <textarea class="modal-textarea">Введіть текст</textarea>
+          </label></li>          
+          </ul>
+          <div class="check">
+          <input type="checkbox" class="checkbox">
+          <p class="model-text">Погоджуюся з розсилкою та приймаю<a href="" class="model-link"> Умови договору</a></p>
+          </div>
+          <div class="send-box">
+            <button class="model-button">Відправити</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
